@@ -11,6 +11,8 @@ namespace BizHawkToolbox
 	public partial class ToolboxMainForm : ToolFormBase, IExternalToolForm
 	{
 		protected override string WindowTitleStatic => "BizHawk Toolbox";
+		
+		public override bool BlocksInputWhenFocused => false;
 
 		private ColorInvert _colorInvert;
 		
