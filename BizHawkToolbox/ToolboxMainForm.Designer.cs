@@ -53,11 +53,13 @@ namespace BizHawkToolbox
 			this.RedUpBig = new System.Windows.Forms.Button();
 			this.GreenUpBig = new System.Windows.Forms.Button();
 			this.BlueUpBig = new System.Windows.Forms.Button();
+			this.ColorChangeGroupBox = new System.Windows.Forms.GroupBox();
+			this.ColorChangeGroupBox.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// RedUp
 			// 
-			this.RedUp.Location = new System.Drawing.Point(52, 27);
+			this.RedUp.Location = new System.Drawing.Point(46, 34);
 			this.RedUp.Name = "RedUp";
 			this.RedUp.Size = new System.Drawing.Size(35, 23);
 			this.RedUp.TabIndex = 1;
@@ -67,7 +69,7 @@ namespace BizHawkToolbox
 			// 
 			// GreenUp
 			// 
-			this.GreenUp.Location = new System.Drawing.Point(133, 27);
+			this.GreenUp.Location = new System.Drawing.Point(127, 34);
 			this.GreenUp.Name = "GreenUp";
 			this.GreenUp.Size = new System.Drawing.Size(35, 23);
 			this.GreenUp.TabIndex = 3;
@@ -77,7 +79,7 @@ namespace BizHawkToolbox
 			// 
 			// BlueUp
 			// 
-			this.BlueUp.Location = new System.Drawing.Point(214, 27);
+			this.BlueUp.Location = new System.Drawing.Point(208, 34);
 			this.BlueUp.Name = "BlueUp";
 			this.BlueUp.Size = new System.Drawing.Size(35, 23);
 			this.BlueUp.TabIndex = 4;
@@ -87,7 +89,7 @@ namespace BizHawkToolbox
 			// 
 			// RedValueLabel
 			// 
-			this.RedValueLabel.Location = new System.Drawing.Point(12, 53);
+			this.RedValueLabel.Location = new System.Drawing.Point(6, 60);
 			this.RedValueLabel.Name = "RedValueLabel";
 			this.RedValueLabel.Size = new System.Drawing.Size(75, 15);
 			this.RedValueLabel.TabIndex = 6;
@@ -96,7 +98,7 @@ namespace BizHawkToolbox
 			// 
 			// GreenValueLabel
 			// 
-			this.GreenValueLabel.Location = new System.Drawing.Point(93, 53);
+			this.GreenValueLabel.Location = new System.Drawing.Point(87, 60);
 			this.GreenValueLabel.Name = "GreenValueLabel";
 			this.GreenValueLabel.Size = new System.Drawing.Size(75, 15);
 			this.GreenValueLabel.TabIndex = 7;
@@ -105,7 +107,7 @@ namespace BizHawkToolbox
 			// 
 			// BlueValueLabel
 			// 
-			this.BlueValueLabel.Location = new System.Drawing.Point(174, 53);
+			this.BlueValueLabel.Location = new System.Drawing.Point(168, 60);
 			this.BlueValueLabel.Name = "BlueValueLabel";
 			this.BlueValueLabel.Size = new System.Drawing.Size(75, 15);
 			this.BlueValueLabel.TabIndex = 8;
@@ -114,7 +116,7 @@ namespace BizHawkToolbox
 			// 
 			// RedDown
 			// 
-			this.RedDown.Location = new System.Drawing.Point(52, 71);
+			this.RedDown.Location = new System.Drawing.Point(46, 78);
 			this.RedDown.Name = "RedDown";
 			this.RedDown.Size = new System.Drawing.Size(35, 23);
 			this.RedDown.TabIndex = 10;
@@ -124,7 +126,7 @@ namespace BizHawkToolbox
 			// 
 			// GreenDown
 			// 
-			this.GreenDown.Location = new System.Drawing.Point(133, 71);
+			this.GreenDown.Location = new System.Drawing.Point(127, 78);
 			this.GreenDown.Name = "GreenDown";
 			this.GreenDown.Size = new System.Drawing.Size(35, 23);
 			this.GreenDown.TabIndex = 11;
@@ -134,7 +136,7 @@ namespace BizHawkToolbox
 			// 
 			// BlueDown
 			// 
-			this.BlueDown.Location = new System.Drawing.Point(214, 71);
+			this.BlueDown.Location = new System.Drawing.Point(208, 78);
 			this.BlueDown.Name = "BlueDown";
 			this.BlueDown.Size = new System.Drawing.Size(35, 23);
 			this.BlueDown.TabIndex = 12;
@@ -144,7 +146,7 @@ namespace BizHawkToolbox
 			// 
 			// label2
 			// 
-			this.label2.Location = new System.Drawing.Point(12, 9);
+			this.label2.Location = new System.Drawing.Point(6, 16);
 			this.label2.Name = "label2";
 			this.label2.Size = new System.Drawing.Size(75, 15);
 			this.label2.TabIndex = 14;
@@ -153,7 +155,7 @@ namespace BizHawkToolbox
 			// 
 			// label3
 			// 
-			this.label3.Location = new System.Drawing.Point(93, 9);
+			this.label3.Location = new System.Drawing.Point(87, 16);
 			this.label3.Name = "label3";
 			this.label3.Size = new System.Drawing.Size(75, 15);
 			this.label3.TabIndex = 15;
@@ -162,7 +164,7 @@ namespace BizHawkToolbox
 			// 
 			// label4
 			// 
-			this.label4.Location = new System.Drawing.Point(174, 9);
+			this.label4.Location = new System.Drawing.Point(168, 16);
 			this.label4.Name = "label4";
 			this.label4.Size = new System.Drawing.Size(75, 15);
 			this.label4.TabIndex = 16;
@@ -171,7 +173,7 @@ namespace BizHawkToolbox
 			// 
 			// StartColorShift
 			// 
-			this.StartColorShift.Location = new System.Drawing.Point(12, 100);
+			this.StartColorShift.Location = new System.Drawing.Point(6, 107);
 			this.StartColorShift.Name = "StartColorShift";
 			this.StartColorShift.Size = new System.Drawing.Size(55, 23);
 			this.StartColorShift.TabIndex = 17;
@@ -181,7 +183,7 @@ namespace BizHawkToolbox
 			// 
 			// StopColorShift
 			// 
-			this.StopColorShift.Location = new System.Drawing.Point(73, 100);
+			this.StopColorShift.Location = new System.Drawing.Point(67, 107);
 			this.StopColorShift.Name = "StopColorShift";
 			this.StopColorShift.Size = new System.Drawing.Size(55, 23);
 			this.StopColorShift.TabIndex = 18;
@@ -191,7 +193,7 @@ namespace BizHawkToolbox
 			// 
 			// EnableColorShift
 			// 
-			this.EnableColorShift.Location = new System.Drawing.Point(133, 100);
+			this.EnableColorShift.Location = new System.Drawing.Point(127, 107);
 			this.EnableColorShift.Name = "EnableColorShift";
 			this.EnableColorShift.Size = new System.Drawing.Size(55, 23);
 			this.EnableColorShift.TabIndex = 19;
@@ -201,7 +203,7 @@ namespace BizHawkToolbox
 			// 
 			// DisableColorShift
 			// 
-			this.DisableColorShift.Location = new System.Drawing.Point(194, 100);
+			this.DisableColorShift.Location = new System.Drawing.Point(188, 107);
 			this.DisableColorShift.Name = "DisableColorShift";
 			this.DisableColorShift.Size = new System.Drawing.Size(55, 23);
 			this.DisableColorShift.TabIndex = 20;
@@ -211,7 +213,7 @@ namespace BizHawkToolbox
 			// 
 			// BlueDownBig
 			// 
-			this.BlueDownBig.Location = new System.Drawing.Point(174, 71);
+			this.BlueDownBig.Location = new System.Drawing.Point(168, 78);
 			this.BlueDownBig.Name = "BlueDownBig";
 			this.BlueDownBig.Size = new System.Drawing.Size(35, 23);
 			this.BlueDownBig.TabIndex = 22;
@@ -221,7 +223,7 @@ namespace BizHawkToolbox
 			// 
 			// GreenDownBig
 			// 
-			this.GreenDownBig.Location = new System.Drawing.Point(93, 71);
+			this.GreenDownBig.Location = new System.Drawing.Point(87, 78);
 			this.GreenDownBig.Name = "GreenDownBig";
 			this.GreenDownBig.Size = new System.Drawing.Size(35, 23);
 			this.GreenDownBig.TabIndex = 23;
@@ -231,7 +233,7 @@ namespace BizHawkToolbox
 			// 
 			// RedDownBig
 			// 
-			this.RedDownBig.Location = new System.Drawing.Point(12, 71);
+			this.RedDownBig.Location = new System.Drawing.Point(6, 78);
 			this.RedDownBig.Name = "RedDownBig";
 			this.RedDownBig.Size = new System.Drawing.Size(35, 23);
 			this.RedDownBig.TabIndex = 24;
@@ -241,7 +243,7 @@ namespace BizHawkToolbox
 			// 
 			// RedUpBig
 			// 
-			this.RedUpBig.Location = new System.Drawing.Point(12, 27);
+			this.RedUpBig.Location = new System.Drawing.Point(6, 34);
 			this.RedUpBig.Name = "RedUpBig";
 			this.RedUpBig.Size = new System.Drawing.Size(35, 23);
 			this.RedUpBig.TabIndex = 26;
@@ -251,7 +253,7 @@ namespace BizHawkToolbox
 			// 
 			// GreenUpBig
 			// 
-			this.GreenUpBig.Location = new System.Drawing.Point(93, 27);
+			this.GreenUpBig.Location = new System.Drawing.Point(87, 34);
 			this.GreenUpBig.Name = "GreenUpBig";
 			this.GreenUpBig.Size = new System.Drawing.Size(35, 23);
 			this.GreenUpBig.TabIndex = 27;
@@ -261,7 +263,7 @@ namespace BizHawkToolbox
 			// 
 			// BlueUpBig
 			// 
-			this.BlueUpBig.Location = new System.Drawing.Point(174, 27);
+			this.BlueUpBig.Location = new System.Drawing.Point(168, 34);
 			this.BlueUpBig.Name = "BlueUpBig";
 			this.BlueUpBig.Size = new System.Drawing.Size(35, 23);
 			this.BlueUpBig.TabIndex = 28;
@@ -269,38 +271,53 @@ namespace BizHawkToolbox
 			this.BlueUpBig.UseVisualStyleBackColor = true;
 			this.BlueUpBig.Click += new System.EventHandler(this.BlueUpBig_Click);
 			// 
+			// ColorChangeGroupBox
+			// 
+			this.ColorChangeGroupBox.Controls.Add(this.label2);
+			this.ColorChangeGroupBox.Controls.Add(this.BlueUpBig);
+			this.ColorChangeGroupBox.Controls.Add(this.RedUp);
+			this.ColorChangeGroupBox.Controls.Add(this.GreenUpBig);
+			this.ColorChangeGroupBox.Controls.Add(this.GreenUp);
+			this.ColorChangeGroupBox.Controls.Add(this.RedUpBig);
+			this.ColorChangeGroupBox.Controls.Add(this.BlueUp);
+			this.ColorChangeGroupBox.Controls.Add(this.RedDownBig);
+			this.ColorChangeGroupBox.Controls.Add(this.RedValueLabel);
+			this.ColorChangeGroupBox.Controls.Add(this.GreenDownBig);
+			this.ColorChangeGroupBox.Controls.Add(this.GreenValueLabel);
+			this.ColorChangeGroupBox.Controls.Add(this.BlueDownBig);
+			this.ColorChangeGroupBox.Controls.Add(this.BlueValueLabel);
+			this.ColorChangeGroupBox.Controls.Add(this.DisableColorShift);
+			this.ColorChangeGroupBox.Controls.Add(this.RedDown);
+			this.ColorChangeGroupBox.Controls.Add(this.EnableColorShift);
+			this.ColorChangeGroupBox.Controls.Add(this.GreenDown);
+			this.ColorChangeGroupBox.Controls.Add(this.StopColorShift);
+			this.ColorChangeGroupBox.Controls.Add(this.BlueDown);
+			this.ColorChangeGroupBox.Controls.Add(this.StartColorShift);
+			this.ColorChangeGroupBox.Controls.Add(this.label3);
+			this.ColorChangeGroupBox.Controls.Add(this.label4);
+			this.ColorChangeGroupBox.Location = new System.Drawing.Point(12, 12);
+			this.ColorChangeGroupBox.Name = "ColorChangeGroupBox";
+			this.ColorChangeGroupBox.Size = new System.Drawing.Size(246, 136);
+			this.ColorChangeGroupBox.TabIndex = 29;
+			this.ColorChangeGroupBox.TabStop = false;
+			this.ColorChangeGroupBox.Text = "Framebuffer Color Manipulation";
+			// 
 			// ToolboxMainForm
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+			this.BackColor = System.Drawing.SystemColors.Control;
 			this.ClientSize = new System.Drawing.Size(800, 450);
-			this.Controls.Add(this.BlueUpBig);
-			this.Controls.Add(this.GreenUpBig);
-			this.Controls.Add(this.RedUpBig);
-			this.Controls.Add(this.RedDownBig);
-			this.Controls.Add(this.GreenDownBig);
-			this.Controls.Add(this.BlueDownBig);
-			this.Controls.Add(this.DisableColorShift);
-			this.Controls.Add(this.EnableColorShift);
-			this.Controls.Add(this.StopColorShift);
-			this.Controls.Add(this.StartColorShift);
-			this.Controls.Add(this.label4);
-			this.Controls.Add(this.label3);
-			this.Controls.Add(this.label2);
-			this.Controls.Add(this.BlueDown);
-			this.Controls.Add(this.GreenDown);
-			this.Controls.Add(this.RedDown);
-			this.Controls.Add(this.BlueValueLabel);
-			this.Controls.Add(this.GreenValueLabel);
-			this.Controls.Add(this.RedValueLabel);
-			this.Controls.Add(this.BlueUp);
-			this.Controls.Add(this.GreenUp);
-			this.Controls.Add(this.RedUp);
+			this.Controls.Add(this.ColorChangeGroupBox);
+			this.Location = new System.Drawing.Point(15, 15);
 			this.Name = "ToolboxMainForm";
 			this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.ToolboxMainForm_FormClosing);
 			this.Load += new System.EventHandler(this.ToolboxMainForm_Load);
+			this.ColorChangeGroupBox.ResumeLayout(false);
 			this.ResumeLayout(false);
 		}
+
+		private System.Windows.Forms.GroupBox ColorChangeGroupBox;
 
 		private System.Windows.Forms.Button BlueDownBig;
 		private System.Windows.Forms.Button GreenDownBig;
