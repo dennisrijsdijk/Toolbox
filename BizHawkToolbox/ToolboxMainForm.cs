@@ -71,7 +71,6 @@ namespace BizHawkToolbox
 		{
 			base.UpdateAfter();
 			_colorInvert.UpdateAfter();
-			AlphaValueLabel.Text = _alphaShift.ToString("X2");
 			RedValueLabel.Text = _redShift.ToString("X2");
 			GreenValueLabel.Text = _greenShift.ToString("X2");
 			BlueValueLabel.Text = _blueShift.ToString("X2");
@@ -90,8 +89,6 @@ namespace BizHawkToolbox
 		#endregion
 
 		#region ColorButtons
-		
-		private void AlphaUp_Click(object sender, EventArgs e) => _alphaShift++;
 
 		private void RedUp_Click(object sender, EventArgs e) => _redShift++;
 
@@ -99,15 +96,11 @@ namespace BizHawkToolbox
 
 		private void BlueUp_Click(object sender, EventArgs e) => _blueShift++;
 
-		private void AlphaDown_Click(object sender, EventArgs e) => _alphaShift--;
-
 		private void RedDown_Click(object sender, EventArgs e) => _redShift--;
 
 		private void GreenDown_Click(object sender, EventArgs e) => _greenShift--;
 
 		private void BlueDown_Click(object sender, EventArgs e) => _blueShift--;
-		
-		private void AlphaUpBig_Click(object sender, EventArgs e) => _alphaShift += 0x10;
 
 		private void RedUpBig_Click(object sender, EventArgs e) => _redShift += 0x10;
 
