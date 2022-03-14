@@ -15,12 +15,7 @@ namespace BizHawkToolbox
 		private ColorInvert _colorInvert;
 		
 		#region ColorShifts
-
-		private byte _alphaShift
-		{
-			get => (byte)(_colorInvert.ColorShift >> 24 & byte.MaxValue);
-			set => _colorInvert.ColorShift = _colorInvert.ColorShift & 0x00FFFFFF | Convert.ToInt32((uint)value) << 24;
-		}
+		
 		private byte _redShift
 		{
 			get => (byte)(_colorInvert.ColorShift >> 16 & byte.MaxValue);
@@ -107,8 +102,6 @@ namespace BizHawkToolbox
 		private void GreenUpBig_Click(object sender, EventArgs e) => _greenShift += 0x10;
 
 		private void BlueUpBig_Click(object sender, EventArgs e) => _blueShift += 0x10;
-
-		private void AlphaDownBig_Click(object sender, EventArgs e) => _alphaShift -= 0x10;
 
 		private void RedDownBig_Click(object sender, EventArgs e) => _redShift -= 0x10;
 
